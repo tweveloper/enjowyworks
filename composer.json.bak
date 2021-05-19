@@ -1,0 +1,27 @@
+{
+    "name": "enjoyworks/library",
+    "type": "library",
+    "description": "EnjoyWorks Laravel Library",
+    "homepage": "https://cloudeden.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tweveloper",
+            "email": "tweveloper@gmail.co.kr"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/constants.php",
+            "src/helpers/DebugHelper.php",
+            "src/helpers/JavascriptHelper.php",
+            "src/helpers/CommonHelper.php"
+        ],
+        "psr-4": {
+            "EnjoyWorks\\": "src"
+        }
+    },
+    "require": {
+
+    }
+}
